@@ -1,3 +1,5 @@
+Add the following code to theme's functions.php file:
+
 add_action('template_redirect', 'preserve_utms');
 
 function preserve_utms() {
